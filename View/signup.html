@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+   <script src="../Scripts/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" type="text/css" href="../Content/Styles/signup.css">
+   <script type="text/javascript" src="../Model/User.js"></script>
+   <script type="text/javascript" src="../Controller/UserController.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <div>
+         <img src="../Content/Images/signpic.jpg" class="img" />
+      </div>
+      <div class="class-padd">
+         <div>
+            <h3 class="top">Registration Info</h3>
+         </div>
+         <div id="registerform">
+            <div class="field-row">
+               <div class="its" style="width:50%">
+                  <span>First Name</span>
+                  <input id="firstName" type="text" class="distance" style="width:90%" />
+               </div>
+               <div class="its" style="width:50%">
+                  <span>Last Name</span>
+                  <input id="lastName" type="text" class="distance" style="width:100%" />
+               </div>
+            </div>
+            <div class="field-row">
+               <div class="its" style="width:50%">
+                  <span>User Name</span>
+                  <input id="userName" type="text" class="distance" style="width:90%" />
+               </div>
+               <div class="its" style="width:50%">
+                  <span>Password</span>
+                  <input id="password" type="password" class="distance" style="width:100%" />
+               </div>
+            </div>
+            <div class="field-row">
+               <div class="its" style="width:100%">
+                  <span>Email</span>
+                  <input id="email" type="text" class="distance" style="width:100%" />
+               </div>
+            </div>
+            <!-- <select id="mySelect" onclick="Selector()" class="distance">
+               <option value="12">Male</option>
+               <option value="10">Female</option>
+            </select>
+            <input type="checkbox" id="check" value="agreement" class="display" style="display:flex" onclick="myFunction('check','checkbox')"> I'm agree <br>
+            <span>Are you like subsrib news?</span>
+            <div id="agreement">
+               <input type="radio" name="rdBtnAgreement" value="yes" onclick="myFunction('agreement','radio')">yes<br>
+               <input type="radio" name="rdBtnAgreement" value="no" onclick="myFunction('agreement','radio')">no<br>
+            </div> -->
+            <div>
+               <input id="button" type="button" onclick="createUser()" value="Submit" class="inter"
+                  style="margin-top: 15px;" />
+            </div>
+         </div>
+</body>
+
+</html>

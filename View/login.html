@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Content/Styles/login.css">
+    <script type="text/javascript" src="../Model/User.js"></script>
+    <script type="text/javascript" src="../Controller/UserController.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="../Content/Images/signpic.jpg" class="img" />
+        </div>
+        <div class="class-padd">
+            <div>
+                <h3 class="top">Registration Info</h3>
+            </div>
+            <div id="registerform">
+                <div>
+                    <div>
+                        <span>Username</span>
+                        <input id="userName" type="text" class="this" style="width:100%" />
+                    </div>
+                    <div>
+                        <span>Password</span>
+                        <input id="password" type="password" class="this" style="width:100%" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input id="button" type="button" onclick="login()" value="login" class="inter" />
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
